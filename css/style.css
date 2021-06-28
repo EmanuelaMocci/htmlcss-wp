@@ -21,11 +21,9 @@ body{
     margin: auto;
     }
 
-
-
 /* Contenitore principale */
 
-.contenitore-header, .hero, .blue-sfondo, .colonna-laterale{
+.contenitore-header, .hero, .colonna-laterale{
     margin-top: 20px;
 }
 
@@ -67,6 +65,7 @@ a{
     padding: 40px 0 50px 40px;
     color: white;
 }
+
 .titolo-hero{
     font-size: 20px;
 }

@@ -124,7 +124,7 @@ h4{
 .credits{
     height: 50px;
     text-align: center;
-    margin: 10px 0;
+    margin-top: 20px;
     color: black;
 }
 .credits>span{

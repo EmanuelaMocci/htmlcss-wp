@@ -102,20 +102,30 @@ h4{
 }
 .colonna-laterale{
     width: 20%;
-    height: 400px;
     float:left;
 }
 
-/* modificare con padding per il margine sopra e sotto */
 .colonna-centrale{ 
     float: left;
     width: calc(60% - 30px);
-    height: 400px;;
     margin: 20px 15px;
 }
+/* .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: 0, 0, 0, 0.2;
+} */
+
 /* Footer */
-.viola{
+.credits{
     height: 50px;
-    background-color: #8602FC;
+    text-align: center;
     margin: 10px 0;
+    color: black;
+}
+.credits>span{
+    color: red;
 }

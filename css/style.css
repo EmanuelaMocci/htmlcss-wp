@@ -77,7 +77,7 @@ a{
 }
 
 .titolo-hero{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Main-section inferiore */
@@ -92,6 +92,8 @@ h2{
 
 h4{
     padding: 10px 0;
+    font-weight: 400;
+    color: black;
 }
 .immagine-main{
     height: 200px;

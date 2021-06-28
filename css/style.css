@@ -11,10 +11,16 @@
     clear: both;
     content: "";
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(192, 187, 187);
+}
 .conteiner{
     width: 70%;
     margin: auto;
     }
+
 
 
 /* Contenitore principale */
@@ -25,12 +31,24 @@
 
 /* Header */
 .contenitore-header{
-    width: 100px;
+    width: 150px;
+    margin: 20px 0;
 }
 img{
     width: 100%;
     border-right: 1px solid lightgrey;
     padding-right: 10px;
+}
+
+/* Nav */
+li{
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(192, 187, 187);
 }
 
 /* Main-section superiore*/

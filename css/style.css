@@ -25,7 +25,7 @@ body{
 
 /* Contenitore principale */
 
-.contenitore-header, .giallo, .blue-sfondo, .colonna-laterale{
+.contenitore-header, .hero, .blue-sfondo, .colonna-laterale{
     margin-top: 20px;
 }
 
@@ -52,11 +52,24 @@ a{
 }
 
 /* Main-section superiore*/
-.giallo{
-    background-color: #E1D67A;
-    height: 400px;
+.hero{
+    background-image: url("../img/banner.jpg");
+    height: 440px;
+    border-radius: 10px;
+    background-position: center;
+    position: relative;
 }
 
+.hero-contenuto{
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    padding: 40px 0 50px 40px;
+    color: white;
+}
+.titolo-hero{
+    font-size: 20px;
+}
 /* Main-section inferiore */
 .blue-sfondo{
     background-color: #0186FB;

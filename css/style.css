@@ -70,20 +70,39 @@ a{
 .titolo-hero{
     font-size: 20px;
 }
+
 /* Main-section inferiore */
-.blue-sfondo{
-    background-color: #0186FB;
-}
-
-.intestazione{
-    background-color: #ABD0E8;
+.intestazione{;
     height: 70px;
+    margin-top: 20px;
 }
 
+h2{
+    color: black;  
+}
+
+h4{
+    padding: 10px 0;
+}
+.immagine-main{
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.sinistra{
+    background-image: url("../img/img-1.jpg");
+}
+.centrale{
+    background-image: url("../img/banner-2.jpg");
+    background-position: center;
+}
+.destra{
+    background-image: url("../img/img-3.jpg");
+    background-position: center;
+}
 .colonna-laterale{
     width: 20%;
     height: 400px;
-    background-color: #ABD0E8;
     float:left;
 }
 
@@ -91,8 +110,7 @@ a{
 .colonna-centrale{ 
     float: left;
     width: calc(60% - 30px);
-    height: 400px;
-    background-color: #ABD0E8;
+    height: 400px;;
     margin: 20px 15px;
 }
 /* Footer */
